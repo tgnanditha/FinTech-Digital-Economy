@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #145C46;
+  --color-forest-dark: #0D3E2F;
+  --color-forest-light: #1D785B;
+  --color-forest-surface: #F0F6F3;
+  --color-mint: #B9F3D0;
+  --color-mint-light: #E9FAF1;
+  --color-mint-dark: #1E8256;
+  --color-warm-bg: #F7F8F5;
+  --color-charcoal: #17231E;
+  --color-charcoal-muted: #5A6E65;
+  --color-charcoal-light: #8E9F97;
+  --font-sans: 'Plus Jakarta Sans', 'Noto Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Noto Sans', ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-color: #F7F8F5;
+  color: #17231E;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* Custom scrollbars for data tables and transaction ledgers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F4F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5CD;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A3B5A7;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Steady",
+  "description": "Income smoothing, auto-save buffers, explainable Steady Score, and flexible credit for Indian gig workers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
